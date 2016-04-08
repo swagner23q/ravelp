@@ -1,13 +1,21 @@
-<div class="addArtist">
-  <div class="row">
-    <div class="col-md-10">
+<header>
+  {{md-parallax image="assets/img/raveHeader4.JPG"}}
+  <h1>Ravelp</h1>
+  <p>Your source for peace, love, unity, and respect</p>
+</header>
+
+<div class="container">
+  <div class="addArtist">
+    <div class="row">
       <h1>Current Artists for Review</h1>
-      {{#each model as |artist|}}
-        {{add-tile artist=artist update="update"}}
-      {{/each}}
-    </div>
-    <div class="col-md-2">
-      {{new-artist  addArtist="addArtist"}}
+      <div class="col s7">
+        {{#each model as |artist|}}
+          {{add-tile artist=artist update="update"}}
+        {{/each}}
+      </div>
+      <div class="col s5">
+        {{new-artist  addArtist="addArtist"}}
+      </div>
     </div>
   </div>
 </div>

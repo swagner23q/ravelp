@@ -1,24 +1,27 @@
-<div class="artistDetail">
-  <h1>{{artist.name}} </h1>
-  <div class="row">
-    <div class="col s8">
-      <p>{{artist.bio}}</p>
-      <p>Website: <a href="{{artist.website}}">{{artist.name}}.com</a></p>
-    </div>
-    <div class="col s4">
-      <center><img src="{{artist.image}}">
-      <button class="waves-effect waves-light btn" {{action 'addToFavorites' artist}}>Add to My Favorites</button></center>
-    </div>
-   </div>
-</div>
-<div class="artistDetailReview">
+
+<div class="container">
+  <div class="artistDetail">
+    <h1>{{artist.name}} </h1>
+    <div class="row">
+      <div class="col s8">
+        <p>{{artist.bio}}</p>
+        <p>Website: <a href="{{artist.website}}">{{artist.name}}.com</a></p>
+      </div>
+      <div class="col s4">
+        <center><img src="{{artist.image}}">
+        <button class="waves-effect waves-light btn" {{action 'addToFavorites' artist}}>Add to My Favorites</button></center>
+      </div>
+     </div>
+  </div>
+
   <div class="row">
     <div class="col s12">
-      <h4>Spread the Love</h4>
-
-      {{#each artist.reviews as |review|}}
-        {{review-tile review=review}}
-      {{/each}}
+      <div class="artistDetailReview">
+        <h4>Spread the Love</h4>
+        {{#each artist.reviews as |review|}}
+          {{review-tile review=review}}
+        {{/each}}
+      </div>
     </div>
   </div>
 </div>

@@ -1,9 +1,21 @@
+.artistContainer {
+  display: flex;
+  flex-direction: column;
+  h5 {
+    text-align: center;
+  }
+
+}
 .artistTile {
+  text-align: center;
   border: 1px double black;
   padding: 2%;
   margin: 3%;
+  float: left;
   border-radius: 1em;
-  width: 65%;
+  height: 40%;
+  width: 100%;
+  clear: both;
   img {
     width: 35%;
     height: auto;
@@ -19,7 +31,49 @@
   }
 }
 .artistDetailReview {
+  border: 3px double black;
+  border-radius: 1em;
+  padding: 5%;
   h4 {
     text-align: center;
+  }
+  .reviewTile {
+    border-bottom: 4px double black;
+    padding-bottom: 5%;
+    .reviewFont {
+     color: teal;
+    }
+
+  }
+}
+.addArtist {
+  h1 {
+    text-align: center;
+  }
+}
+.newReview, .newArtistForm {
+  border: 3px double black;
+  border-radius: 1em;
+  padding: 5%;
+}
+
+.addTile {
+  border: 3px double black;
+  border-radius: 1em;
+  padding: 5%;
+  margin-top: 1%;
+}
+
+.displayFavs {
+  border: 3px double black;
+  border-radius: 1em;
+  padding: 3%;
+  width: 40%;
+  float: left;
+  margin: 2%;
+  img {
+
+    width: 85%;
+    height: auto;
   }
 }

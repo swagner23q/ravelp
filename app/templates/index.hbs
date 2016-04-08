@@ -5,11 +5,32 @@
           <p>My really amazing content goes here...</p>
       </div>
   </div> -->
+  <header>
+    {{md-parallax image="assets/img/raveHeader1.JPG"}}
+    <h1>Ravelp</h1>
+    <p>Your source for peace, love, unity, and respect</p>
+    {{md-parallax image="assets/img/raveHeader1.JPG"}}
+  </header>
+  <div class="container">
+    <div class="row">
+      <h1 class="indexHeader">Welcome to Ravelp, find and share your PLUR</h1>
+      <div class="col s8">
+        <p>plur kandi kid rave where's molly EDM trade bracelets hooping hardstyle trance drop bass. so hard show tiesto unity pasties fluffies bros squad rolling paradiso ill be right back vibin deep house. filthy heavy rage respect shuffle im right by the stage turnt. HAM juke turn up trap mafia levels avicii massive trails hardcore light show grime. moombahton love play progressive train gloving edc troll wonderland insomniac passifier beads. LED tutu glitter furry hood booty plurnt garage tranced out. candy flipping headbanger get wet dubstep bunny fist pump x rated touch me dada. peace hugs water untz dope chill hand heart mind blown. unicorn slave killin it rainbows dance sunshine.</p>
+        <p>plur kandi kid rave where's molly EDM trade bracelets hooping hardstyle trance drop bass. so hard show tiesto unity pasties fluffies bros squad rolling paradiso ill be right back vibin deep house. filthy heavy rage respect shuffle im right by the stage turnt. HAM juke turn up trap mafia levels avicii massive trails hardcore light show grime. moombahton love play progressive train gloving edc troll wonderland insomniac passifier beads. LED tutu glitter furry hood booty plurnt garage tranced out. candy flipping headbanger get wet dubstep bunny fist pump x rated touch me dada. peace hugs water untz dope chill hand heart mind blown. unicorn slave killin it rainbows dance sunshine.</p>
+      </div>
+      <div class="col s4">
+        <img src="http://24.media.tumblr.com/tumblr_lloa8vEn6F1qac24zo1_500.jpg">
+      </div>
 
-  <div class="row">
-    <div class="col-xs-12 col-md-12">
-      {{#each model as |artist|}}
-         {{artist-tile artist=artist}}
-      {{/each}}
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="artistContainer">
+          <h5>-Find an Artist-</h5>
+          {{#each model as |artist|}}
+             {{artist-tile artist=artist}}
+          {{/each}}
+        </div>
+      </div>
     </div>
   </div>

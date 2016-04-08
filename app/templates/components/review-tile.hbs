@@ -1,7 +1,7 @@
-<p><b>Username:</b> {{review.user}}<br>
-<b>Venue Seen at:</b> {{review.venue}}</p>
-<b>How was the Performace?</b> <br>
-{{review.performance}}
 
-
-<!-- <button class="btn" {{action 'deleteFeedback' feedback}}>Delete</button> -->
+<div class="reviewTile">
+  <p><b>Username:</b> <span class="reviewFont">{{review.user}}</span><br>
+  <b>Venue Seen at:</b> <span class="reviewFont">{{review.venue}}</span></p>
+  <b>How was the Performace?</b> <br><br>
+  <span class="reviewFont">{{review.performance}}</span>
+</div>

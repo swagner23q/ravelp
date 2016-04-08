@@ -1,25 +1,28 @@
-{{#if newArtistForm}}
-<h2> Add a new Artist </h2>
-  <form>
-    <div class='form-group'>
-      <label for='name'>Name:</label>
-      {{input value=name id='name'}}
 
-      <label for='genre'>Genre:</label>
-      {{textarea value=genre id='genre'}}
+<div class="newArtistForm">
+  {{#if newArtistForm}}
+  <h2> Add a new Artist </h2>
+    <form>
+      <div class='form-group'>
+        <label for='name'>Name:</label>
+        {{input value=name id='name'}}
 
-      <label for='bio'>Biography:</label>
-      {{input value=bio id='bio'}}
+        <label for='genre'>Genre:</label>
+        {{input value=genre id='genre'}}
 
-      <label for='image'>Image URL:</label>
-      {{input value=image id='image'}}
+        <label for='bio'>Biography:</label>
+        {{textarea value=bio id='bio'}}
 
-      <label for='website'>Website URL:</label>
-      {{input value=website id='website'}}
+        <label for='image'>Image URL:</label>
+        {{input value=image id='image'}}
 
-    </div>
-    <button class="waves-effect waves-light btn" {{action 'addArtist'}}>Save</button>
-  </form>
-{{else}}
-<button class="btn" {{action 'newArtistFormShow'}}>Add Artist</button>
-{{/if}}
+        <label for='website'>Website URL:</label>
+        {{input value=website id='website'}}
+
+      </div>
+      <button class="waves-effect waves-light btn" {{action 'addArtist'}}>Save</button>
+    </form>
+  {{else}}
+  <center><button class="btn" {{action 'newArtistFormShow'}}>Add Artist</button></center>
+  {{/if}}
+</div>

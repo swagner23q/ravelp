@@ -1,7 +1,9 @@
-<div class="displayFavs">
-  {{#each favorites.favorites as |favorite|}}
+
+{{#each favorites.favorites as |favorite|}}
+  <div class="displayFavs">
     <h5>Artist: {{favorite.name}}</h5>
     <p>Genre: {{favorite.genre}}</p>
     <p><img src="{{favorite.image}}"></p>
-  {{/each}}
-</div>
+    <button class="btn" {{action 'remove' artist}}>Remove</button>
+  </div>
+{{/each}}
