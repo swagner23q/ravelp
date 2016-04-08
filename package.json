@@ -29,6 +29,7 @@
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
     "ember-cli-materialize": "0.18.8",
+    "ember-cli-moment": "0.0.2",
     "ember-cli-qunit": "^1.4.0",
     "ember-cli-release": "0.2.8",
     "ember-cli-sass": "5.3.1",

@@ -1,13 +1,13 @@
 <div class="artistDetail">
-  <h1>{{artist.name}}</h1>
+  <h1>{{artist.name}} </h1>
   <div class="row">
-    <div class="col s6">
+    <div class="col s8">
       <p>{{artist.bio}}</p>
       <p>Website: <a href="{{artist.website}}">{{artist.name}}.com</a></p>
     </div>
     <div class="col s4">
-      <img src="{{artist.image}}">
-
+      <center><img src="{{artist.image}}">
+      <button class="waves-effect waves-light btn" {{action 'addToFavorites' artist}}>Add to My Favorites</button></center>
     </div>
    </div>
 </div>
@@ -18,17 +18,7 @@
 
       {{#each artist.reviews as |review|}}
         {{review-tile review=review}}
-        <!-- deleteFeedback="deleteFeedback" -->
       {{/each}}
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-<!-- <p><button {{action 'addToCart' product}}>Add to Cart</button></p>

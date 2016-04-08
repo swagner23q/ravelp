@@ -1,1 +1,13 @@
-{{outlet}}
+<div class="addArtist">
+  <div class="row">
+    <div class="col-md-10">
+      <h1>Current Artists for Review</h1>
+      {{#each model as |artist|}}
+        {{add-tile artist=artist update="update"}}
+      {{/each}}
+    </div>
+    <div class="col-md-2">
+      {{new-artist  addArtist="addArtist"}}
+    </div>
+  </div>
+</div>

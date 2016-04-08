@@ -1,0 +1,7 @@
+<div class="displayFavs">
+  {{#each favorites.favorites as |favorite|}}
+    <h5>Artist: {{favorite.name}}</h5>
+    <p>Genre: {{favorite.genre}}</p>
+    <p><img src="{{favorite.image}}"></p>
+  {{/each}}
+</div>
