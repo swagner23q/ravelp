@@ -55,6 +55,7 @@
   border: 3px double black;
   border-radius: 1em;
   padding: 5%;
+  margin-top: 1%;
 }
 
 .addTile {
@@ -72,8 +73,10 @@
   float: left;
   margin: 2%;
   img {
-
     width: 85%;
     height: auto;
   }
+}
+.favorites {
+  text-align: center;
 }
