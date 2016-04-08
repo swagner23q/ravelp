@@ -1,0 +1,25 @@
+{{#if addNewReview}}
+<section class="reviewSection">
+  <h3>New Review:</h3>
+    <form>
+      <div class="form-group">
+        <label for="user">User Name:</label>
+        {{input value=user id="user"}}
+      </div>
+
+      <div class="form-group">
+        <label for="venue">Venue Seen at:</label>
+        {{input value=venue id="venue"}}
+      </div>
+
+      <div class="form-group">
+        <label for="performance">How was the Performance?</label>
+        {{textarea value=performance id="performance"}}
+      </div>
+
+      <button class="waves-effect waves-light btn" {{action 'saveReview'}}>Save</button>
+    </form>
+</section>
+{{else}}
+  <button class="btn" {{action 'reviewFormShow'}}>Leave a Review</button>
+{{/if}}

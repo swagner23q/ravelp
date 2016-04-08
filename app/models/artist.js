@@ -5,6 +5,6 @@ export default DS.Model.extend({
   genre: DS.attr(),
   image: DS.attr(),
   bio: DS.attr(),
-  website: DS.attr()
-  // reviews: DS.hasMany('review', { async: true})
+  website: DS.attr(),
+  reviews: DS.hasMany('review', { async: true})
 });
