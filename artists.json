@@ -1,0 +1,21 @@
+{
+  "artists" : [ {
+    "name" : "Armin Van Buuren",
+    "genre" : "Trance",
+    "bio" : "Armin van Buuren (born 25 December 1976), is a Dutch remixer, music producer, DJ, musician, pianist and songwriter. Since 2001, Van Buuren has hosted a weekly radio show called A State of Trance, which currently is broadcast to more than 37 million weekly listeners in 84 countries on over 100 FM radio stations. This radio show propelled him to stardom and helped cultivate an interest in trance music around the world.",
+    "image": "http://www.global-sets.com/wp-content/uploads/2014/08/armin.van_.buuren.jpg",
+    "website": "http://www.arminvanbuuren.com/"
+  }, {
+    "name" : "Seven Lions",
+    "genre" : "Chillstep",
+    "bio" : "Jeff Montalvo (born March 31, 1987), known professionally as Seven Lions, is an American record producer, remixer, instrumentalist and DJ from Santa Barbara, California. Seven Lions' first significant track was his remix of Above & Beyond’s 'You Got To Go.' He has also released three EPs which have charted on Beatport, and his track 'Don't Leave' entered the UK Singles Chart in 2014.",
+    "image": "https://pbs.twimg.com/profile_images/527908926050672640/GrSXjVKD.jpeg",
+    "website": "http://www.sevenlions.com/"
+  }, {
+    "name" : "ATB",
+    "genre" : "Trance",
+    "bio" : "Andre Tanneberger (born 26 February 1973) is a German DJ, musician, and producer of electronic dance music. According to the official world DJ rankings governed by DJ Magazine, ATB was ranked #11 in 2009 and 2010, and #15 in 2011. In 2011, he was ranked as world number 1 according to 'The DJ List'. He is best known for his 1999 single '9 PM (Till I Come)' which was a number one single in the United Kingdom.",
+    "image": "https://pbs.twimg.com/profile_images/621699735544537089/rRC2Q-AF.jpg",
+    "website": "http://www.atb-music.com/"
+  } ]
+}

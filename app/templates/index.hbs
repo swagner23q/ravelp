@@ -1,0 +1,15 @@
+<!-- {{md-parallax image="assets/img/raveHeader1.JPG"}}
+<div class="section grey lighten-2">
+      <div class="row container">
+          <h4>Hello Parallax</h4>
+          <p>My really amazing content goes here...</p>
+      </div>
+  </div> -->
+
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      {{#each model as |artist|}}
+        {{artist-tile artist=artist}}
+      {{/each}}
+    </div>
+  </div>

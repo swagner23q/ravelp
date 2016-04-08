@@ -1,6 +1,33 @@
-<h2 id="title">Welcome to Ember.js</h2>
+{{#md-navbar name='Ravelp' class='grey lighten-1'}}
 
-{{outlet}}
+  {{#link-to 'index' tagName='li'}}
+    {{link-to 'Home' 'index'}}
+  {{/link-to}}
+  <!-- {{#link-to 'legislator' tagName='li'}}
+    {{link-to 'Legislator Contact' 'legislator'}}
+  {{/link-to}}
+  {{#link-to 'house' tagName='li'}}
+    {{link-to 'House Commitees' 'house'}}
+  {{/link-to}}
+  {{#link-to 'senate' tagName='li'}}
+    {{link-to 'Senate Commitees' 'senate'}}
+  {{/link-to}}
+  {{#link-to 'bills' tagName='li'}}
+    {{link-to 'Bills' 'bills'}}
+  {{/link-to}} -->
+{{/md-navbar}}
+
+<header>
+  {{md-parallax image="assets/img/raveHeader2.JPG"}}
+  <h1>Ravelp</h1>
+  <p>Your source for peace, love, unity, and respect</p>
+</header>
+
+<div class="container">
+    {{outlet}}
+</div>
+
+<footer></footer>
 
 {{!-- ember-cli-materialize modal container --}}
 {{md-modal-container}}
