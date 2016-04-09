@@ -10,6 +10,7 @@ export default Ember.Component.extend({
       var params = {
         user: this.get('user'),
         venue: this.get('venue'),
+        rating: this.get('rating'),
         performance: this.get('performance'),
         artist: this.get('artist')
       };
