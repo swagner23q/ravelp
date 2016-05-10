@@ -1,7 +1,7 @@
 # Ravelp
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ravelp is a concert review application. Users can review their favorite artists' concerts to share knowledge on their experiences and whether or not it was worth the cost. Admin page can add new artists if needed.
 
 ## Prerequisites
 
